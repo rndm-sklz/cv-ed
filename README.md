@@ -1,2 +1,1 @@
-# rsschool-cv
-https://rndm-sklz.github.io/rsschool-cv/cv
+https://rndm-sklz.github.io/rsschool-cv/
