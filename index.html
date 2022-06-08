@@ -1,12 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" href="./assets/icons/favicon-32x32.png">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <footer class="footer">
+        <img src="./assets/images/portrait.jpg" alt="portirait">
+        <div class="name">
+            <h1>Andrey Gerasimov</h1>
+            <h4>Junior Front-end Developer (beginner)</h4>
+        </div>
+    </footer>
+    <main class="main">
+        <section class="info">
+            <div class="contacts">
+                <h2>Contacts information</h2>
+                <div class="underline"></div>
+                <ul class="contacts_list">
+                    <li class="discord">
+                        <img src="./assets/icons/discord-logo.svg" alt="discord">
+                        <span>Discord:</span>
+                        <p>@oldschool#6150</p>
+                    </li>
+                    <li class="telegram">
+                        <img src="./assets/icons/telegram-logo.svg" alt="telegram">
+                        <span>Telegram:</span>
+                        <a href="https://telegram.me/Gerasimov_Andrew">@Gerasimov_Andrew</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h2>Skills</h2>
+                <div class="underline"></div>
+                <ul class="skills_list">
+                    <li class="skill_html">HTML 5</li>
+                    <li class="skill_css">CSS 3</li>
+                    <li class="skill_js">JavaScript (basic)</li>
+                    <li class="skill_git">Git (basic)</li>
+                    <li class="skill_figma">Figma (basic)</li>
+                    <li class="skill_english">English: A1 level</li>
+                </ul>
+            </div>
+            <div class="expirience">
+                <h2>Work example</h2>
+                <div class="underline"></div>
+                <ul class="exsample_list">
+                    <li class="exsample_codepen"><a href="https://codepen.io/rndm-sklz">Codepen example</a></li>
+                    <li class="exsample_codewars"><a href="https://www.codewars.com/users/rndm-sklz">Codewars completed
+                            kata</a></li>
+                    <li class="exsample_github"><a href="https://github.com/rndm-sklz">Projects on GitHub</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about_me">
+                <h3>About me</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua</p>
+            </div>
+            <div class="education">
+                <h3>Education</h3>
+                <div class="education_block">
+                    <div class="education_block_title">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="education_block_description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+                <div class="education_block">
+                    <div class="education_block_title">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="education_block_description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+                <div class="education_block">
+                    <div class="education_block_title">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="education_block_description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+                <div class="work_expirience">
+                    <h3>Work expirience</h3>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="code">
+                    <h3>Code example</h3>
+                    <details>
+                        <summary>function chessBoard</summary>
+                        <pre>
+    <code>
+        let container = document.createElement("div", { id: "container" });
+        document.body.appendChild(container);
+
+        function chessBoard(n, m) {
+        let table = document.createElement("table");
+        container.appendChild(table);
+        for (let i = 0; i < n; i++) {
+            let tr = document.createElement("tr");
+            table.appendChild(tr);
+
+            for (let j = 0; j < m; j++) {
+            if (i % 2 === 0) {
+                let td = document.createElement("td");
+                j % 2 === 0
+                ? td.classList.add("cell--dark")
+                : td.classList.add("cell--light");
+                tr.appendChild(td);
+            } else {
+                let td = document.createElement("td");
+                j % 2 !== 0
+                ? td.classList.add("cell--dark")
+                : td.classList.add("cell--light");
+                tr.appendChild(td);
+            }
+            }
+        }
+        }
+        chessBoard(6, 6);
+    </code>
+                        </pre>
+                    </details>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="nav">
+            <ul class="links_list">
+                <li class="rs_school">
+                    <a href="#">
+                        <img src="#" alt="rs school logo">
+                    </a>
+                </li>
+                <li class="year"><span>© 2022 by Andrey Gerasimov</span></li>
+                <li class="github_link">
+                    <a href="#">
+                        <img src="#" alt="github logo">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
+
 </html>

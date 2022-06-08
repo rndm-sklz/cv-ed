@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("/assets/fonts/Montserrat-VariableFont_wght.ttf") format('truetype-variations');
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1024px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(150, 150, 150);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(201, 201, 201);
+}
+
+.footer img {
+    width: 19em;
+    border-radius: 50%;
+    margin: 1em 1em;
+    -webkit-box-shadow: 5px 5px 16px 1px rgba(0, 0, 0, 0.712);
+    -moz-box-shadow: 5px 5px 16px 1px rgba(0, 0, 0, 0.712);
+    box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
+}
+
+.name {
+    margin: auto 0;
+    width: 100%;
+}
+
+.name h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.name h4 {
+    text-align: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 21em 1fr;
+    background-color: rgb(201, 201, 201);
+}
+
+.info {
+    padding: 1em;
+}
+
+.about {
+    padding: 1em;
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.discord {
+    display: flex;
+}
+
+.contacts_list img {
+    width: 1.5em;
+}
+
+.discord span {
+    margin: .5em;
+}
+
+.discord p {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.telegram {
+    display: flex;
+}
+
+.telegram span {
+    margin: .5em;
+}
+
+.telegram a {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    text-decoration: none;
+    color: black;
+}
+
+.telegram a:hover {
+    color: blue;
+}
