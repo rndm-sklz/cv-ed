@@ -1,39 +1,43 @@
 * {
     box-sizing: border-box;
-  }
-
-@font-face {
-    font-family: 'Montserrat', sans-serif;
-    src: url("/assets/fonts/Montserrat-VariableFont_wght.ttf") format('truetype-variations');
 }
 
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     max-width: 1024px;
     min-width: 600px;
     margin: 0 auto;
     padding: 2rem;
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(151, 127, 99);
 }
 
-.footer {
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: auto;
+    /* border: black solid 1px; */
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
+    box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
+}
+
+.header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(136, 106, 64);
 }
 
-.footer img {
-    width: 19em;
+.header img {
+    width: 19rem;
     border-radius: 50%;
-    margin: 1em 1em;
-    -webkit-box-shadow: 5px 5px 16px 1px rgba(0, 0, 0, 0.712);
-    -moz-box-shadow: 5px 5px 16px 1px rgba(0, 0, 0, 0.712);
+    margin: 1rem 1rem;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
     box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
 }
 
@@ -44,25 +48,30 @@ body {
 
 .name h1 {
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
-.name h4 {
+.name h3 {
     text-align: center;
 }
 
 .main {
     display: grid;
-    grid-template-columns: 21em 1fr;
-    background-color: rgb(201, 201, 201);
+    grid-template-columns: 21rem 1fr;
+    background-color: rgb(163, 136, 99);
 }
 
 .info {
-    padding: 1em;
+    padding: 1rem;
+}
+
+.info h2 {
+    margin: 1.5rem 0;
 }
 
 .about {
-    padding: 1em;
+    padding: 1rem;
+    border-left: 2px solid black;
 }
 
 .contacts_list {
@@ -75,16 +84,16 @@ body {
 }
 
 .contacts_list img {
-    width: 1.5em;
+    width: 1.5rem;
 }
 
 .discord span {
-    margin: .5em;
+    margin: .5rem;
 }
 
 .discord p {
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 .telegram {
@@ -92,16 +101,102 @@ body {
 }
 
 .telegram span {
-    margin: .5em;
+    margin: .5rem;
 }
 
 .telegram a {
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     text-decoration: none;
     color: black;
 }
 
 .telegram a:hover {
-    color: blue;
+    color: antiquewhite;
+}
+
+.skills_list {
+    list-style-type: circle;
+    padding: 0;
+    padding-left: 1rem;
+}
+
+.skills_list li {
+    margin: 1rem;
+}
+
+.about_me p {
+    line-height: 2rem;
+}
+
+.about h3 {
+    margin: 1.5rem 0;
+}
+
+.example_list {
+    list-style-type: circle;
+    padding: 0;
+    padding-left: 1rem;
+
+}
+
+.example_list li {
+    margin: 1rem;
+}
+
+.example_list a {
+    text-decoration: underline;
+    color: black;
+}
+
+.example_list a:hover {
+    color: antiquewhite;
+}
+
+.education_list {
+    list-style-type: circle;
+    padding: 0;
+    padding-left: 1rem;
+}
+
+.education_list li {
+    margin: 1rem;
+}
+
+.education_list a {
+    text-decoration: underline;
+    color: black;
+}
+
+.education_list a:hover {
+    color: antiquewhite;
+}
+
+.code summary:hover {
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(136, 106, 64);
+}
+
+.links_list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.links_list li {
+    display: flex;
+}
+
+.rs_school img{
+    width: 5rem;
+}
+
+.year span {
+    margin: auto;
+    font-size: 0.8rem;
 }
