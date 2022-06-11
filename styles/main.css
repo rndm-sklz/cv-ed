@@ -112,6 +112,7 @@ body {
 
 .telegram a:hover {
     color: antiquewhite;
+    transition: color .5s;
 }
 
 .skills_list {
@@ -150,6 +151,7 @@ body {
 
 .example_list a:hover {
     color: antiquewhite;
+    transition: color .5s;
 }
 
 .education_list {
@@ -169,10 +171,13 @@ body {
 
 .education_list a:hover {
     color: antiquewhite;
+    transition: color .5s;
 }
 
 .code summary:hover {
     cursor: pointer;
+    color: antiquewhite;
+    transition: color .5s;
 }
 
 .footer {
