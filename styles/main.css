@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    max-width: 1024px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(151, 127, 99);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
+    box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(136, 106, 64);
+}
+
+.header img {
+    width: 19rem;
+    border-radius: 50%;
+    margin: 1rem 1rem;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
+    box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.712);
+}
+
+.name {
+    margin: auto 0;
+    width: 100%;
+}
+
+.name h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.name h3 {
+    text-align: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 21rem 1fr;
+    background-color: rgb(163, 136, 99);
+}
+
+.info {
+    padding: 1rem;
+}
+
+.info h2 {
+    margin: 1.5rem 0;
+}
+
+.about {
+    padding: 1rem;
+    border-left: 2px solid black;
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.discord {
+    display: flex;
+}
+
+.contacts_list img {
+    width: 1.5rem;
+}
+
+.discord span {
+    margin: .5rem;
+}
+
+.discord p {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.telegram {
+    display: flex;
+}
+
+.telegram span {
+    margin: .5rem;
+}
+
+.telegram a {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.telegram a:hover {
+    color: antiquewhite;
+    transition: color .5s;
+}
+
+.skills_list {
+    list-style-type: circle;
+    padding: 0;
+    padding-left: 1rem;
+}
+
+.skills_list li {
+    margin: 1rem;
+}
+
+.about_me p {
+    line-height: 2rem;
+}
+
+.about h3 {
+    margin: 1.5rem 0;
+}
+
+.example_list {
+    list-style-type: circle;
+    padding: 0;
+    padding-left: 1rem;
+
+}
+
+.example_list li {
+    margin: 1rem;
+}
+
+.example_list a {
+    text-decoration: underline;
+    color: black;
+}
+
+.example_list a:hover {
+    color: antiquewhite;
+    transition: color .5s;
+}
+
+.education_list {
+    list-style-type: circle;
+    padding: 0;
+    padding-left: 1rem;
+}
+
+.education_list li {
+    margin: 1rem;
+}
+
+.education_list a {
+    text-decoration: underline;
+    color: black;
+}
+
+.education_list a:hover {
+    color: antiquewhite;
+    transition: color .5s;
+}
+
+.code summary:hover {
+    cursor: pointer;
+    color: antiquewhite;
+    transition: color .5s;
+}
+
+.footer {
+    background-color: rgb(136, 106, 64);
+}
+
+.links_list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.links_list li {
+    display: flex;
+}
+
+.rs_school img{
+    width: 5rem;
+}
+
+.year span {
+    margin: auto;
+    font-size: 0.8rem;
+}
