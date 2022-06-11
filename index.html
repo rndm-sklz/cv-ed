@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" href="./assets/icons/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>CV Gerasimov Andrey</title>
+    <script src='https://yastatic.net/highlightjs/8.2/highlight.min.js'></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href='https://yastatic.net/highlightjs/8.2/styles/solarized_light.min.css' rel='stylesheet'/>
+</head>
+
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <img src="./assets/images/portrait.jpg" alt="portirait">
+        <div class="name">
+            <h1>Andrey Gerasimov</h1>
+            <h3>Junior Front-end Developer (beginner)</h3>
+        </div>
+    </header>
+    <main class="main">
+        <section class="info">
+            <div class="contacts">
+                <h2>Contacts information</h2>
+                <div class="underline"></div>
+                <ul class="contacts_list">
+                    <li class="discord">
+                        <img src="./assets/icons/discord-logo.svg" alt="discord">
+                        <span>Discord:</span>
+                        <p>@oldschool#6150</p>
+                    </li>
+                    <li class="telegram">
+                        <img src="./assets/icons/telegram-logo.svg" alt="telegram">
+                        <span>Telegram:</span>
+                        <a href="https://telegram.me/Gerasimov_Andrew">@Gerasimov_Andrew</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h2>Skills</h2>
+                <div class="underline"></div>
+                <ul class="skills_list">
+                    <li class="skill_html">HTML 5</li>
+                    <li class="skill_css">CSS 3</li>
+                    <li class="skill_js">JavaScript (basic)</li>
+                    <li class="skill_git">Git (basic)</li>
+                    <li class="skill_figma">Figma (basic)</li>
+                    <li class="skill_english">English: A1 level</li>
+                </ul>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about_me">
+                <h3>About me</h3>
+                <p>My name is Andrey, i'm frontend trainee. At the moment I am independently learning HTML, CSS and JS.</p>
+            </div>
+            <div class="education">
+                <h3>Education</h3>
+                <ul class="education_list">
+                    <li class="htmlacademy">
+                        <span>Study of HTML and CSS:</span>
+                        <a href="https://htmlacademy.ru/profile/oldschool">statistics of completed simulators in HTML Academy</a>
+                    </li>
+                    <li class="learnjs">
+                        <span>Theoretical study of JS:</span>
+                        <a href="https://learn.javascript.ru/">learn.javascript</a>
+                    </li>
+                    <li class="codepen">
+                        <span>Practical training on JS:</span>
+                        <a href="https://codepen.io/rndm-sklz">codepen example</a>
+                    </li>
+                    <li class="codewars">
+                        <span>Solution of algorithmic tasks on JS:</span>
+                        <a href="https://www.codewars.com/users/rndm-sklz">codewars completed kata</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="work_expirience">
+                <h3>Work expirience</h3>
+                <p>As frontend developer - none :(</p>
+            </div>
+            <div class="expirience">
+                <h3>Work example</h3>
+                <div class="underline"></div>
+                <ul class="example_list">
+                    <li class="example_portfolio"><span>Project:</span><a href="https://rolling-scopes-school.github.io/rndm-sklz-JSFEPRESCHOOL/portfolio/">«Portfolio»</a></li>
+                    <li class="example_github"><span>Projects on </span><a href="https://github.com/rndm-sklz">GitHub</a></li>
+                </ul>
+            </div>
+            <div class="code">
+                <h3>Code example</h3>
+                <details>
+                    <summary>function unluckyDays</summary>
+                    <pre>
+                    <code>
+    /*Friday 13th or Black Friday is considered as unlucky day.
+    Calculate how many unlucky days are in the given year*/
+
+    function unluckyDays(year){
+        let uDay = 0;
+        for (i = 0; i &lt; 12; i++) {
+        uDay += new Date(year, i, 13).getDay() === 5 ? 1 : 0;
+        }
+        return uDay;
+    }
+                    </code>
+                    </pre>
+                </details>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav class="nav">
+            <ul class="links_list">
+                <li class="rs_school">
+                    <a href="https://rs.school/js-stage0/">
+                        <img src="./assets/icons/logo-rsschool3.png" alt="rs school logo">
+                    </a>
+                </li>
+                <li class="year"><span>© 2022 by Andrey Gerasimov</span></li>
+                <li class="github_link">
+                    <a href="https://github.com/rndm-sklz">
+                        <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    </div>
+</body>
+
+</html>
